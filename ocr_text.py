@@ -15,7 +15,7 @@ def json_to_text(json_path, text_file_path):
                 text_file.write("\n" + "-"*50 + "\n")
 
 # Define the path to your JSON file and the desired text output file
-json_path = 'results/surya/samplefile/results.json'
+json_path = '../results/surya/samplefile/results.json'
 text_file_path = 'ocr_output.txt'
 
 # Convert JSON to text file
